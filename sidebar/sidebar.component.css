@@ -1,0 +1,30 @@
+.sidebar
+{
+    height: 100%;
+    width: 200px;
+    background: linear-gradient(#494F57, #1D2228);
+    color: #fff;
+    position: fixed;
+    top: 60px;
+    left: 0;
+}
+.sidebar ul{
+text-align: left;
+list-style: none;
+margin: 0px;
+padding: 10px;
+}
+.sidebar ul li{ 
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+.sidebar ul li:hover{
+    background: #F88600;
+     box-shadow: 0px 2px 20px 0px #000;
+}
+.svg-inline--fa {
+    padding-right: 1em;
+}
